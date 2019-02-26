@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4403275123756986}
   - component: {fileID: 114066354307676778}
   - component: {fileID: 114438673106815308}
+  - component: {fileID: 114075508367936506}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -89,6 +90,17 @@ MonoBehaviour:
   - {fileID: 1468816487028888, guid: be6186c490571c147b9b18cfaa272749, type: 2}
   - {fileID: 1225591883575978, guid: faec0efccd1d8c84f90420a4fdd2e7f8, type: 2}
   - {fileID: 1668127279289514, guid: d329d137507c87b47873ce990db1d03e, type: 2}
+--- !u!114 &114075508367936506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198123931995904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177b5a09de5ec9548b1e4ab144801b37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114438673106815308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -103,6 +115,6 @@ MonoBehaviour:
   levelStartDelay: 2
   turnDelay: 0.1
   boardScript: {fileID: 0}
-  playerFoodPoints: 100
+  playerFoodPoints: 50
   playersTurn: 1
   enemies: []
