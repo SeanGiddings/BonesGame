@@ -9,6 +9,7 @@ public class Restart : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
+            Destroy(GameManager.instance.gameObject);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
