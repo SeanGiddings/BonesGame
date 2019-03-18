@@ -109,7 +109,7 @@ public class Player : MovingObject {
 
     private void Restart()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void LoseFood(int loss)
